@@ -7,7 +7,7 @@ public class Temperature
  {
   double fah;
   fah = Double.parseDouble(args[0]);
-  double celcius =(fah - 32)*5/9;
-  System.out.printf ("Celcius: % 2f",celcius);
+  double celcius = (fah - 32)*5/9;
+  System.out.printf("Celcius: % 2f",celcius);
   }
 }
